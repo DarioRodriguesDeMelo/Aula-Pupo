@@ -50,7 +50,7 @@ public class SubtractionServlet extends HttpServlet {
                 out.println("A Subtração de "+ n1 +" - " + n2 + " é igual a <b>" + result +"</");
             }catch(Exception ex){
                
-                out.println("<h4>Erro ao ler parâmetros</h4>");
+                out.println("<h4>Erro ao ler os parâmetros</h4>");
             }
             
             
